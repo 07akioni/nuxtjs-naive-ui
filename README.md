@@ -15,13 +15,13 @@ Find and replace all on all files (CMD+SHIFT+F):
 
 English · [中文](README.zh_CN.md)
 
-The official nuxt module for naive-ui that supports Nuxt.js SSR.
+The official nuxt module for naive-ui that supports Nuxt.js SSR and simplifies build configuration.
 
 > [!IMPORTANT]  
 > If you are using this module, make sure:
 >
 > 1. `@css-render/*` and `css-render` packages' version satisfies `>=0.15.4`.
-> 2. Each of `@css-render/*` and `css-render` only to resolves 1 target. (No different versions of same package & No duplicate for the same version)
+> 2. Each of `@css-render/*` and `css-render` only resolves 1 target. (No different versions of same package & No duplicate for the same version)
 >
 > You can search in lock file for `css-render` to check if there's duplicate.
 

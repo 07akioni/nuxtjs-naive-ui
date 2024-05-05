@@ -6,7 +6,7 @@
 
 [English](README.md) · 中文
 
-naive-ui 的官方 nuxt module，支持 SSR。
+naive-ui 的官方 nuxt module，支持 SSR，简化构建配置。
 
 > [!IMPORTANT]  
 > 使用该模块，请确保:
