@@ -20,7 +20,11 @@ The official nuxt module for naive-ui that supports Nuxt.js SSR.
 Install the module to your Nuxt application with one command:
 
 ```bash
+# npm
 npx nuxi module add nuxtjs-naive-ui
+
+# pnpm
+pnpm dlx nuxi module add nuxtjs-naive-ui
 ```
 
 
