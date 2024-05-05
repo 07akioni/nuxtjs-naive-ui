@@ -15,6 +15,13 @@ Find and replace all on all files (CMD+SHIFT+F):
 
 The official nuxt module for naive-ui that supports Nuxt.js SSR.
 
+> [!IMPORTANT]  
+> If you are using this module, make sure:
+> 1. `@css-render/*` and `css-render` packages' version satisfy `>=0.15.4`.
+> 2. Each of `@css-render/*` and `css-render` only to resolves 1 target. (No different versions of same package & No duplicate for the same version)
+>
+> You can search in lock file for `css-render` to check if there's no duplicate. 
+
 ## Quick Setup
 
 Install the module to your Nuxt application with one command:
