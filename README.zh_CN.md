@@ -11,7 +11,7 @@ naive-ui 的官方 nuxt module，支持 SSR，简化构建配置。
 > [!IMPORTANT]  
 > 使用该模块，请确保:
 >
-> 1. `@css-render/*` 和 `css-render` 的版本都 `>=0.15.4`
+> 1. `@css-render/*` 和 `css-render` 的版本都 `>=0.15.14`
 > 2. 每个 `@css-render/*` 和 `css-render` 包最终只都指向一个目标（一个包不会有多个版本，也不会有同一个版本的多个副本）
 >
 > 你可以在 lock file 中搜索 `css-render` 去检查是不是有重复的
