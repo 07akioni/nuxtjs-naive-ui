@@ -1,33 +1,24 @@
-<!--
-Get your module up and running quickly.
-
-Find and replace all on all files (CMD+SHIFT+F):
-- Name: My Module
-- Package name: nuxtjs-naive-ui
-- Description: My new Nuxt module
--->
-
 # nuxtjs-naive-ui
 
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
 [![License][license-src]][license-href]
 
-English · [中文](README.zh_CN.md)
+[English](README.md) · 中文
 
-The official nuxt module for naive-ui that supports Nuxt.js SSR.
+naive-ui 的官方 nuxt module，支持 SSR。
 
 > [!IMPORTANT]  
-> If you are using this module, make sure:
+> 使用该模块，请确保:
 >
-> 1. `@css-render/*` and `css-render` packages' version satisfies `>=0.15.4`.
-> 2. Each of `@css-render/*` and `css-render` only to resolves 1 target. (No different versions of same package & No duplicate for the same version)
+> 1. `@css-render/*` 和 `css-render` 的版本都 `>=0.15.4`
+> 2. 每个 `@css-render/*` 和 `css-render` 包最终只都指向一个目标（一个包不会有多个版本，也不会有同一个版本的多个副本）
 >
-> You can search in lock file for `css-render` to check if there's duplicate.
+> 你可以在 lock file 中搜索 `css-render` 去检查是不是有重复的
 
-## Quick Setup
+## 使用方式
 
-Install the module to your Nuxt application with one command:
+在你的 Nuxt 应用中使用下列命令安装此模块：
 
 ```bash
 # npm
