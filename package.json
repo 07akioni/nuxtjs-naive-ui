@@ -1,6 +1,6 @@
 {
   "name": "nuxtjs-naive-ui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The official nuxt module for naive-ui that supports Nuxt.js SSR.",
   "license": "MIT",
   "type": "module",
