@@ -1,16 +1,16 @@
 import { setup } from '@css-render/vue3-ssr'
 import { defineNuxtPlugin } from '#app'
 
-export default defineNuxtPlugin((_nuxtApp) => {
+export default defineNuxtPlugin((nuxtApp) => {
   if (import.meta.server) {
-    const { collect } = setup(_nuxtApp.vueApp)
-    _nuxtApp.hooks.hook('app:rendered', () => {
-      if (_nuxtApp.ssrContext) {
-        if (typeof _nuxtApp.ssrContext.styles === 'string') {
-          _nuxtApp.ssrContext.styles += collect()
+    const { collect } = setup(nuxtApp.vueApp)
+    nuxtApp.hooks.hook('app:rendered', () => {
+      if (nuxtApp.ssrContext) {
+        if (typeof nuxtApp.ssrContext.styles === 'string') {
+          nuxtApp.ssrContext.styles += collect()
         }
-        else if (!_nuxtApp.ssrContext.styles) {
-          _nuxtApp.ssrContext.styles = collect()
+        else if (!nuxtApp.ssrContext.styles) {
+          nuxtApp.ssrContext.styles = collect()
         }
       }
     })
