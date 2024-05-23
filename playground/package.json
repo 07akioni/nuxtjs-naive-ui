@@ -7,10 +7,7 @@
     "build": "nuxi build",
     "generate": "nuxi generate"
   },
-  "dependencies": {
-    "nuxt": "^3.11.2"
-  },
   "devDependencies": {
-    "naive-ui": "^2.38.2"
+    "nuxt": "latest"
   }
 }
